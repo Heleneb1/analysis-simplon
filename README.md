@@ -1,3 +1,41 @@
+# Analyse des Ventes PME - Projet Dev IA
+Ce dépôt contient les travaux réalisés dans le cadre du brief "Analyser les ventes d’une PME" pour la sélection au parcours Développeur en Intelligence Artificielle Simplon.
+
+## 🎯 Objectifs du projet
+Explorer et caractériser un jeu de données de ventes sur 20 jours.
+
+Effectuer des analyses de données via des requêtes SQL.
+
+Visualiser les résultats (KPI et graphiques) avec Python (Pandas & Plotly).
+
+## 📂 Contenu du dépôt
+ventes.sql : Script contenant les requêtes d'extraction du CA total, par produit et par région.
+
+app.py : Script Python générant les visualisations interactives.
+
+Fiche_Synthese.pdf : Analyse textuelle et interprétation des résultats business.
+
+## 📊 Visualisations générées
+Le script Python génère plusieurs rapports au format HTML :
+
+Chiffre d'Affaires Total (Indicateur clé).
+
+Répartition du CA par Région (Mise en évidence de la performance Sud vs Nord).
+
+Analyse par Produit (Volumes de ventes et CA généré).
+
+Comparaison Produit/Région (Focus sur les disparités locales).
+
+## 🛠️ Technologies utilisées
+Base de données : SQLite
+
+Langage : Python 3.x
+
+Librairies : Pandas, Plotly Express, Plotly Graph Objects
+
+## Comment utiliser ce projet ?
+Les consignes sont indiquées ci-dessous par Simplon
+
 # Qu'est-ce que c'est ?
 
 Ceci est un projet de visualisation de données, qui utilise le langage de programmation Pyhton.
