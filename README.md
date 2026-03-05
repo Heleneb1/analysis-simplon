@@ -6,10 +6,10 @@ Explorer et caractériser un jeu de données de ventes sur 20 jours.
 
 Effectuer des analyses de données via des requêtes SQL.
 
-Visualiser les résultats (KPI et graphiques) avec Python (Pandas & Plotly).
+Visualiser les résultats ( graphiques) avec Python (Pandas & Plotly).
 
 ## 📂 Contenu du dépôt
-ventes.sql : Script contenant les requêtes d'extraction du CA total, par produit et par région.
+SQLite.sql : Script contenant les requêtes d'extraction du CA total, par produit et par région.
 
 app.py : Script Python générant les visualisations interactives.
 
@@ -29,7 +29,7 @@ Comparaison Produit/Région (Focus sur les disparités locales).
 ## 🛠️ Technologies utilisées
 Base de données : SQLite
 
-Langage : Python 3.x
+Langage : Python 3.11.14
 
 Librairies : Pandas, Plotly Express, Plotly Graph Objects
 
